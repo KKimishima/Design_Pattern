@@ -1,6 +1,6 @@
 // 本棚を示すクラスである
 // 集合をとして扱うためのAggregateインターフェスの実装を行っている
-//
+
 package Kimishima;
 
 public class BookShelf implements Aggregate{

@@ -10,6 +10,7 @@ public class Main {
     bf.append(new Book("1.テスト"));
     bf.append(new Book("2.テスト"));
     bf.append(new Book("3.テスト"));
+    bf.append(new Book("4.テスト"));
 
     // イテレータインスタンスに変数代入
     Iterator it = bf.itetartor();
