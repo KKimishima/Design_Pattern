@@ -2,34 +2,26 @@ package KKimishima.product;
 
 import KKimishima.framework.Creator;
 import KKimishima.framework.Product;
-
-import java.sql.Connection;
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class ConcreteCreator extends Creator{
-  ArrayList<Product> owners = new  ArrayList<>();
-  private int num;
+  private HashMap<Integer,String> owners = new HashMap<>();
+  private int num = 0;
 
-  public ConcreteCreator(){
-    this.num = 0;
-  }
 
   @Override
   protected Product CreateProduct(String owner) {
-    return new CancereProduct(owner);
+    return new ConcreteProduct(owner,num++);
   }
 
-  @Override
-  protected void setInfo(Product pd){
-    this.num++;
-  }
   @Override
   protected void registerProduct(Product pd){
-    owners.add((Product)getOwners());
-
+    ConcreteProduct i = (ConcreteProduct) pd;
+    owners.put(new Integer(i.getHasNum()),i.getOwner());
   }
 
-  public ArrayList<Product> getOwners() {
+  public HashMap<Integer,String> getOwners() {
     return owners;
   }
+
 }
