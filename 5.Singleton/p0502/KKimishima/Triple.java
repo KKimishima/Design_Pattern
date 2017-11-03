@@ -1,18 +1,20 @@
 package KKimishima;
 
 public class Triple {
-  private static Triple[] tr = new Triple[3];
-  private Triple (){
-    System.out.println("インスタンスが3つだけ生成されました");
+  private static Triple[] tr = new Triple[]{
+      new Triple(0),
+      new Triple(1),
+      new Triple(2),
+
+  };
+  private int id;
+
+  private Triple (int id){
+    System.out.println(id + "番目のインスタンスが生成されました");
   }
+
   public static Triple getTriple(int id){
-    //(id)0 <= 2
-    //(id)1 <= 2
-    //(id)5 <= 2
-    if(id <= 2){
-      return tr[id];
-    }else{
-      return null;
-    }
+    return tr[id];
   }
+
 }
