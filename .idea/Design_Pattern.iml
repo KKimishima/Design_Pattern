@@ -4,10 +4,8 @@
     <output url="file://$MODULE_DIR$/1.Iterator/out" />
     <output-test url="file://$MODULE_DIR$/1.Iterator/out" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/6.Prototype/sample/src/KKimishima" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/6.Prototype/sample/test" isTestSource="true" />
-    </content>
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/1.Iterator/out" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

@@ -1,0 +1,16 @@
+@startuml
+title Builderシークエンス
+hide footbox
+
+actor ユーザ as user
+participant テキスト作製 as TexBuilder <<TexBuilder>>
+participant テンプレート作製 as Director <<Director>>
+participant 作製インターフェイス as  Builder <<Builder>>
+
+user        -> TexBuilder   :<<new>>
+TexBuilder  <- Builder      :<<継承>>
+Builder     <- TexBuilder   :<<実装>>
+user        -> Director     :<<new>>
+TexBuilder  -> Director     :<<引き数>>
+Director    -> user         :<<データ表示>>
+@enduml

@@ -1,0 +1,63 @@
+@startuml
+
+' クラス
+class Main
+
+abstract Director{
+    - Builder builder
+    ---
+    + void construct
+}
+
+interface Builder{
+    ---
+    + void makeTile(String title)
+    + void makeString(String str)
+    + void makeItems(String[] items)
+    + void close()
+}
+
+class TextBuilder{
+    - StringBuffer buffer
+    ---
+    + void makeTile(String title)
+    + void makeString(String str)
+    + void makeItems(String[] items)
+    + void close()
+    + String getResult()
+}
+
+
+class HTMLBuilder{
+    - String Filename
+    - PrintWriter Writer
+    ---
+    + void makeTile(String title)
+    + void makeString(String str)
+    + void makeItems(String[] items)
+    + void close()
+    + String getResult()
+}
+
+' 説明
+note right of Builder
+    文章を創るメソッドを宣言すメソッド
+end note
+note top of Director
+    一つの文章を創るクラス
+end note
+note top of TextBuilder
+    プレーンテキストを作製するクラス
+end note
+note top of HTMLBuilder
+    プレーンテキストを作製するクラス
+end note
+' 関係性
+Main -r->Director:use
+Main -->TextBuilder:use
+Main -->HTMLBuilder:use
+Director o-> Builder
+TextBuilder --|> Builder
+HTMLBuilder --|> Builder
+
+@enduml

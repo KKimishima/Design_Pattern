@@ -22,12 +22,12 @@ public class MessageBox implements Product{
   @Override
   public void use(String s){
     int length = s.getBytes().length;
-    for (int i = 0;i < length +4;i++){
+    for (int i = 0;i < length;i++){
       System.out.print(decochar);
     }
     System.out.println("");
     System.out.println(this.decochar + " " + s + " " +this.decochar);
-    for (int i = 0;i< length + 4;i++){
+    for (int i = 0;i< length;i++){
       System.out.print(decochar);
     }
     System.out.println("");

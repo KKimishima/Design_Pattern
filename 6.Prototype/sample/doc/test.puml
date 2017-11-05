@@ -1,0 +1,39 @@
+@startuml
+
+class Manager{
+    showcase
+    ---
+    register
+    create
+}
+
+interface Product{
+---
+    abstract void use()
+    abstract Product createClone()
+}
+
+class MassageBox{
+    decochar
+    ---
+    use
+    createClone
+}
+
+class Underline{
+    - ulchar
+    ---
+    + use
+    + crateClone
+}
+
+class Main{
+}
+
+Manager -->Product:use
+MassageBox ..>Product:実装
+Underline ..>Product:実装
+Main -->Manager
+Main -->MassageBox
+
+@enduml

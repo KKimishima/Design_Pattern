@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="2" />
+    <option name="SCOPE_TYPE" value="3" />
     <option name="CUSTOM_SCOPE_NAME" value="ファイルのオープン" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795dcfc7-7f8a-44ee-9326-973af85a6ce3" name="デフォルト" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Manager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/test/MessageBoxTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/test/UnderlinePenTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/KKimishima/Singleton.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Prototype/sample/doc/test.puml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/p0701/src/Builder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/p0701/src/Director.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/p0701/src/FormBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/p0701/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/p0701/src/TexBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/doc/Builder.puml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/doc/BuilderSeq.puml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/src/Builder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/src/Director.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/src/HTMLBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/src/TextBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/test/HTMLBuilderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Builder/sample/test/TextBuilderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.AbstractFactory/sample/doc/test.puml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/MessageBox.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/MessageBoxTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/UnderlinePen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/UnderlinePenTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/framework/Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/framework/Product.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.Iterator/out/writer.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Design_Pattern.iml" afterPath="$PROJECT_DIR$/.idea/Design_Pattern.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5.Singleton/p0502/KKimishima/Main.java" afterPath="$PROJECT_DIR$/5.Singleton/p0502/KKimishima/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5.Singleton/p0502/KKimishima/Triple.java" afterPath="$PROJECT_DIR$/5.Singleton/p0502/KKimishima/Triple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/Main.java" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java" afterPath="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,111 +47,38 @@
     <favorites_list name="Design_Pattern" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Product.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Manager.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#392#393#0" expanded="true" />
-                    <element signature="e#433#434#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MessageBoxTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/test/MessageBoxTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UnderlinePenTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/test/UnderlinePenTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="UnderlinePen.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MessageBox.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#297#298#0" expanded="true" />
-                    <element signature="e#331#332#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Product.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="Builder.puml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7.Builder/sample/doc/Builder.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.puml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8.AbstractFactory/sample/doc/test.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="UML Sequence" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="UML Class" />
+        <option value="UML Component" />
       </list>
     </option>
   </component>
@@ -150,26 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/SetDriver.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/test/JDBCTest.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/insert.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/DBset.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/InsertTable.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/JDBC.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/DAO.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/Insert.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/Find.java" />
-        <option value="$PROJECT_DIR$/1.Iterator/ex0101/MainTest.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/sample1/Banner.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/sample1/PrintBanner.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/sample1/Print.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/sample1/TransferPrintBanner.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/sample1/Main.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/sample1/TransferPrint.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/p0201/FileIO.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/p0201/FileProperties.java" />
-        <option value="$PROJECT_DIR$/2.Adapter/p0201/Main.java" />
-        <option value="$PROJECT_DIR$/3.TemplateMethod/sample/AbstractDisplay.java" />
         <option value="$PROJECT_DIR$/3.TemplateMethod/sample/StringDisplay.java" />
         <option value="$PROJECT_DIR$/3.TemplateMethod/sample/CharDisplay.java" />
         <option value="$PROJECT_DIR$/3.TemplateMethod/sample/Main.java" />
@@ -197,10 +120,30 @@
         <option value="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Product.java" />
         <option value="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBoxTest.java" />
         <option value="$PROJECT_DIR$/6.Prototype/sample/test/MessageBoxTest.java" />
-        <option value="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java" />
         <option value="$PROJECT_DIR$/6.Prototype/sample/test/UnderlinePenTest.java" />
-        <option value="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java" />
         <option value="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/Main.java" />
+        <option value="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java" />
+        <option value="$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java" />
+        <option value="$PROJECT_DIR$/6.Prototype/sample/doc/test.puml" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/src/Builder.java" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/doc/Builder.puml" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/src/Director.java" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/src/TextBuilder.java" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/test/TextBuilderTest.java" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/test/HTMLBuilderTest.java" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/src/HTMLBuilder.java" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/src/Main.java" />
+        <option value="$PROJECT_DIR$/7.Builder/sample/doc/BuilderSeq.puml" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/src/Bulider.java" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/src/Builder.java" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/src/TexBuilder.java" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/test/javaFXBuilderTest.java" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/src/Director.java" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/src/javaFXBuilder.java" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/src/FormBuilder.java" />
+        <option value="$PROJECT_DIR$/7.Builder/p0701/src/Main.java" />
+        <option value="$PROJECT_DIR$/8.AbstractFactory/sample/doc/AbstractFactoryClass.puml" />
+        <option value="$PROJECT_DIR$/8.AbstractFactory/sample/doc/test.puml" />
       </list>
     </option>
   </component>
@@ -210,11 +153,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="23" />
-    <option name="width" value="1631" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -231,10 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,49 +184,60 @@
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="5.Singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="1.Iterator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="6.Prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="7.Builder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="6.Prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="7.Builder" type="462c0819:PsiDirectoryNode" />
+              <item name="p0701" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="7.Builder" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="6.Prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="7.Builder" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="6.Prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KKimishima" type="462c0819:PsiDirectoryNode" />
+              <item name="8.AbstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="6.Prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="8.AbstractFactory" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="8.AbstractFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -301,10 +251,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7.Builder/sample" />
+      <recent name="$PROJECT_DIR$/6.Prototype/sample/doc" />
       <recent name="$PROJECT_DIR$/6.Prototype/sample/src" />
       <recent name="$PROJECT_DIR$/6.Prototype/sample" />
       <recent name="$PROJECT_DIR$/4.FactoryMethod/sample/Kimishima/framework" />
-      <recent name="$PROJECT_DIR$/4.FactoryMethod" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -326,15 +277,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UnderlinePenTest.use">
-    <configuration name="Main (2)" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="KKimishima.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="KKimishima.Main" />
+  <component name="RunManager" selected="アプリケーション.Main">
+    <configuration name="HTMLBuilderTest.close" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Design_Pattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HTMLBuilderTest" />
+      <option name="METHOD_NAME" value="close" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="HTMLBuilderTest.makeTile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Design_Pattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HTMLBuilderTest" />
+      <option name="METHOD_NAME" value="makeTile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,86 +331,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Design_Pattern" />
       <envs />
-    </configuration>
-    <configuration name="MessageBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Design_Pattern" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MessageBoxTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MessageBoxTest.use" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Design_Pattern" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MessageBoxTest" />
-      <option name="METHOD_NAME" value="use" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UnderlinePenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Design_Pattern" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnderlinePenTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UnderlinePenTest.use" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Design_Pattern" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnderlinePenTest" />
-      <option name="METHOD_NAME" value="use" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="アプレット">
       <option name="HTML_USED" value="false" />
@@ -507,20 +413,54 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="javaFXBuilder" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="javaFXBuilder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Design_Pattern" />
+      <envs />
+    </configuration>
+    <configuration name="javaFXBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Design_Pattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="javaFXBuilderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="アプリケーション.Main (2)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MessageBoxTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MessageBoxTest.use" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UnderlinePenTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UnderlinePenTest.use" />
+      <item index="0" class="java.lang.String" itemvalue="アプリケーション.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HTMLBuilderTest.makeTile" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HTMLBuilderTest.close" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.javaFXBuilderTest" />
+      <item index="4" class="java.lang.String" itemvalue="アプリケーション.javaFXBuilder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UnderlinePenTest.use" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnderlinePenTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MessageBoxTest.use" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MessageBoxTest" />
-        <item index="4" class="java.lang.String" itemvalue="アプリケーション.Main (2)" />
+        <item index="0" class="java.lang.String" itemvalue="アプリケーション.Main" />
+        <item index="1" class="java.lang.String" itemvalue="アプリケーション.javaFXBuilder" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.javaFXBuilderTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HTMLBuilderTest.close" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HTMLBuilderTest.makeTile" />
       </list>
     </recent_temporary>
   </component>
@@ -543,34 +483,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JDBCTest_connTest - 2017.10.27 at 00h 15m 00s.xml">
-      <configuration name="JDBCTest.connTest" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_close - 2017.11.05 at 15h 35m 27s.xml">
+      <configuration name="HTMLBuilderTest.close" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JDBCTest_connTest - 2017.10.27 at 22h 08m 19s.xml">
-      <configuration name="JDBCTest.connTest" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_close - 2017.11.05 at 15h 35m 56s.xml">
+      <configuration name="HTMLBuilderTest.close" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageBoxTest - 2017.11.03 at 19h 33m 13s.xml">
-      <configuration name="MessageBoxTest" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_close - 2017.11.05 at 15h 36m 37s.xml">
+      <configuration name="HTMLBuilderTest.close" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageBoxTest - 2017.11.03 at 19h 33m 30s.xml">
-      <configuration name="MessageBoxTest" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_close - 2017.11.05 at 15h 38m 13s.xml">
+      <configuration name="HTMLBuilderTest.close" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageBoxTest - 2017.11.03 at 19h 41m 00s.xml">
-      <configuration name="MessageBoxTest" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_close - 2017.11.05 at 15h 39m 35s.xml">
+      <configuration name="HTMLBuilderTest.close" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageBoxTest_use - 2017.11.03 at 19h 43m 41s.xml">
-      <configuration name="MessageBoxTest.use" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_close - 2017.11.05 at 15h 40m 07s.xml">
+      <configuration name="HTMLBuilderTest.close" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageBoxTest_use - 2017.11.03 at 19h 45m 03s.xml">
-      <configuration name="MessageBoxTest.use" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_makeTile - 2017.11.05 at 15h 15m 18s.xml">
+      <configuration name="HTMLBuilderTest.makeTile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageBoxTest_use - 2017.11.03 at 20h 08m 35s.xml">
-      <configuration name="MessageBoxTest.use" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_makeTile - 2017.11.05 at 15h 16m 18s.xml">
+      <configuration name="HTMLBuilderTest.makeTile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnderlinePenTest - 2017.11.03 at 20h 08m 31s.xml">
-      <configuration name="UnderlinePenTest" configurationId="JUnit" />
+    <history-entry file="HTMLBuilderTest_makeTile - 2017.11.05 at 15h 17m 55s.xml">
+      <configuration name="HTMLBuilderTest.makeTile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnderlinePenTest_use - 2017.11.03 at 20h 09m 04s.xml">
+    <history-entry file="UnderlinePenTest_use - 2017.11.04 at 15h 27m 16s.xml">
       <configuration name="UnderlinePenTest.use" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -584,29 +524,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="23" width="1631" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.371672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.497558" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262195" sideWeight="0.497558" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.506105" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3212321" sideWeight="0.495116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32012194" sideWeight="0.495116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.493895" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31199187" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="パレット" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10824418" sideWeight="0.4878049" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10702875" sideWeight="0.4878049" order="0" side_tool="false" content_ui="combo" />
       <window_info id="UI デザイナー" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="キャプチャー分析" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="デザイナー" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.49390244" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40484047" sideWeight="0.497558" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40447155" sideWeight="0.497558" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12820514" sideWeight="0.5121951" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -698,7 +639,7 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -707,204 +648,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/RecordIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/Rrecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/Aggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/JDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/DBset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/test/JDBCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.Iterator/ex0101/Find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/sample1/Banner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/sample1/PrintBanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/p0201/FileIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/p0201/wirter.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/p0201/writer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/p0201/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.TemplateMethod/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.TemplateMethod/sample/CharDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.TemplateMethod/sample/StringDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/sample1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.TemplateMethod/sample/AbstractDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/sample1/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/sample1/TransferPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/p0201/FileProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.Adapter/sample1/TransferPrintBanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.FactoryMethod/sample/Factory.java" />
-    <entry file="file://$PROJECT_DIR$/4.FactoryMethod/sample/Kimishima/framework/createProduct.java" />
-    <entry file="file://$PROJECT_DIR$/2.Adapter/p0201/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.FactoryMethod/sample/Kimishima/framework/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#547#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.FactoryMethod/sample/Kimishima/framework/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#158#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4.FactoryMethod/sample/Kimishima/idcard/IDCardFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -916,10 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#474#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,14 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#363#364#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#535#536#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,13 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-            <element signature="e#370#371#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,10 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,94 +749,314 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1509705773000" expanded="true" signature="2552:2558" ph="&amp;nbsp;" />
-            <marker date="1509705773000" expanded="true" signature="2586:2592" ph="&amp;nbsp;" />
-            <marker date="1509705773000" expanded="true" signature="2620:2626" ph="&amp;nbsp;" />
-            <marker date="1509705773000" expanded="true" signature="3084:3090" ph="&amp;nbsp;" />
-            <marker date="1509705773000" expanded="true" signature="3719:3930" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="3190:3206" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="3343:3359" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="3719:3923" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="3951:4628" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="3972:4033" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="4054:4198" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="4249:4313" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="4319:4576" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="4351:4569" ph="..." />
-            <marker date="1509705773000" expanded="true" signature="4606:4622" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Manager.java">
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBoxTest.java" />
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Product.java">
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBoxTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="501">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6.Prototype/sample/test/MessageBoxTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/test/UnderlinePenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/doc/test.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/framework/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/file/.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/file/HTMLビルダーテスト.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/file/タイトルテスト.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.Iterator/out/writer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/test/HTMLBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/test/TextBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/doc/index-files/index-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/doc/BuilderSeq.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/src/TextBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/src/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/p0701/test/javaFXBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/p0701/src/javaFXBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/awt/event/WindowAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/AquaLookAndFeel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/ClientPropertyApplicator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#2088#2089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/p0701/src/FormBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.AbstractFactory/sample/doc/sampl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/p0701/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/p0701/src/TexBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/src/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/p0701/src/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/p0701/src/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/src/HTMLBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/MessageBox.java">
+    <entry file="file://$PROJECT_DIR$/8.AbstractFactory/sample/doc/AbstractFactoryClass.puml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/test/UnderlinePenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/UnderlinePen.java">
+    <entry file="file://$PROJECT_DIR$/7.Builder/sample/doc/Builder.puml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="-210">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Prototype/sample/src/KKimishima/Main.java">
+    <entry file="file://$PROJECT_DIR$/8.AbstractFactory/sample/doc/test.puml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="552">
+          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding />
         </state>
       </provider>

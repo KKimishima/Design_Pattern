@@ -1,0 +1,67 @@
+@startuml
+
+note top of factory:抽象的な工場,部品,製品
+note top of listfactory:具体的な工場,製品,部品
+namespace factory{
+
+    note top of Link:HTMLのリンクを表すクラス
+        abstract Link{
+        # String url
+        ---
+        + Link(String caption,String url)
+    }
+
+    note top of Item:LinkとTrayを同一視するクラス
+    abstract Item{
+        # String caption
+        ---
+        + Item(String caption)
+        + abstract String makeHTML()
+    }
+
+    note top of Page:HTMLのページを作製
+    abstract Page{
+        # String title
+        # String author
+        # ArrayList content
+        ---
+        + void add(Item item)
+        + void output()
+        + abstract String makeHTML
+    }
+
+    note top of Tray:LinkやTrayを集めたクラス
+    abstract Tray{
+        # ArrayList tray
+        ---
+        + Tray(String caption)
+        + void add(Item item)
+        }
+
+    note top of Factory:抽象的な工場クラス
+    abstract Factory{
+        ---
+        # static Factory getFactory(String classname)
+        # abstract Link createLink(String caption,String url)
+        # abstract Tray createTray(String caption)
+        # abstract page createPage(String title,String author)
+    }
+
+
+
+
+    Link --|> Item
+    Tray --|> Item
+    Tray --o  Item
+    Factory --> Link:Creates
+    Factory --> Tray:Creates
+    Factory --> Page:Creates
+
+
+}
+namespace listfactory{
+    class Nanka
+}
+
+
+@enduml
